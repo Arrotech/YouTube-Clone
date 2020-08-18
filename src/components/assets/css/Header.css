@@ -27,11 +27,16 @@
     border: none !important;
 }
 
+.header__center>input:focus {
+    outline: none;
+}
+
 .header__searchButton {
     width: 50px !important;
     background: #fafafa;
     border-left: 1px solid lightgray;
     color: gray;
+    padding-right: 20px !important;
 }
 
 .header__right {
@@ -41,4 +46,12 @@
 
 .header__icon {
     margin-right: 8px;
+}
+
+@media(max-width: 660px) {
+    .header__searchButton {
+        width: 20px !important;
+        padding-right: 20px !important;
+        margin-right: 20px !important;
+    }
 }
