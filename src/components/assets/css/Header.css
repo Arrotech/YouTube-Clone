@@ -24,7 +24,7 @@
 
 .header__center>input {
     flex: 1;
-    border: none;
+    border: none !important;
 }
 
 .header__searchButton {
